@@ -15,9 +15,10 @@ This project demonstrates how to classify URLs as malicious or benign using a Ra
 
 ## Overview
 This repository contains Python code to:
-1. Train a machine learning model (Random Forest) using phishing data from the UCI repository.
-2. Evaluate the model on both the UCI dataset and a custom dataset (`balanced_urls.csv`).
-3. Visualize key results, including feature importance, confusion matrices, and class distributions.
+1. Train a machine learning model (Random Forest) using phishing data from the UCI repository. (https://archive.ics.uci.edu/dataset/327/phishing+websites)
+2. Evaluate the model on both the UCI dataset and a custom dataset (`balanced_urls.csv`)
+3. Balanced_urls was acquired from Kaggle here: https://www.kaggle.com/datasets/sid321axn/malicious-urls-dataset
+4. Visualize key results, including feature importance, confusion matrices, and class distributions.
 
 The features used for classification include URL characteristics like the presence of an IP address, length, HTTPS usage, and more.
 
